@@ -39,7 +39,12 @@
   "repository": "https://github.com/homeiot/neopixel.git",
   "scripts": {
     "prepublish": "gulp prepublish",
+    "start": "./bin/neopixel",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "restify": "^4.0.4",
+    "rpi-ws281x-native": "^0.8.1"
+  }
 }

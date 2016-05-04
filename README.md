@@ -6,6 +6,7 @@
 ### Hardware Preparation
 - Raspberry Pi 2
 - Wifi Dongle
+- Adafruit NeoPixel Digital RGB LED Strip [Link](https://www.adafruit.com/product/1138)
 
 ### Install Linux to pi
 - Download : https://www.raspberrypi.org/downloads/raspbian/

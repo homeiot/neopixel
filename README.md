@@ -117,6 +117,17 @@ nvm alias  default node
 ./install_modules.sh
 ```
 
+## Usage
+
+### REST API
+- Get status : GET http://localhost:8080
+- Change Theme : PUT http://localhost:8080/theme/{name}
+  - Current theme list : ['rainbow']
+- Change Color by RGB : PUT http://localhost:8080/color/{0-255}/{0-255}/{0-255}
+- Change Color by Hex : PUT http://localhost:8080/color/{hex}
+- Stop : PUT http://localhost:8080/stop
+- Change Count of Neopixel : PUT http://localhost:8080/count/{number}
+
 ## License
 
 MIT © [Denny Lim](http://iamdenny.com)

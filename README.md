@@ -8,6 +8,11 @@
 - Wifi Dongle
 - Adafruit NeoPixel Digital RGB LED Strip [Link](https://www.adafruit.com/product/1138)
 
+#### Connect Neopixel to Rasberry Pi 2
+![GPIO](http://www.elektronik-kompendium.de/sites/raspberry-pi/fotos/raspberry-pi-15.jpg)
+- Ground of Neopixel : Number 6 or 9 or 20 or 25
+- Data of Neopixel : Number 12(GPIO 18)
+
 ### Install Linux to pi
 - Download : https://www.raspberrypi.org/downloads/raspbian/
 - How to install : https://www.raspberrypi.org/documentation/installation/installing-images/mac.md
